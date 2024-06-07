@@ -43,6 +43,7 @@ public class MainActivity extends AppCompatActivity {
         btn = findViewById(R.id.button);
 
         btn.setOnClickListener(v -> {
+
             String city1 = String.valueOf(Edit_pog.getText());
             String api = "bebc52b710c6b5b8412289595742f962";
 
